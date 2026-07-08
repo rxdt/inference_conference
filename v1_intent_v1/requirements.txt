@@ -1,0 +1,14 @@
+# Runtime deps for the intent extractors and experiment harnesses.
+# Pure spaCy + numpy — no AI-model/LLM clients, no network inference.
+#
+# Setup:
+#   python -m venv .venv && . .venv/bin/activate
+#   pip install -r requirements.txt
+#   python -m spacy download en_core_web_md      # 20k x 300 word vectors
+#   python build_corpus.py                        # builds .cache_db/ for approach #2
+#
+# Verify:
+#   python -m pytest test_intent.py               # or: python test_intent.py
+spacy==3.8.14
+numpy==2.4.6
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl
