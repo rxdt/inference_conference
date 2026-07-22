@@ -1,6 +1,6 @@
 # Loops Within Loops: A Super Meta NLI Conference
 A technical peer-review conference focused on a zero-training intent extraction system using [spaCy](http://spacy.io/).
-
+## Read it on [Hackernoon](https://hackernoon.com/three-ai-agents-held-a-conference-and-decided-i-should-do-the-work-instead)
 I asked three AIs to build one part of an AI recommendation engine I'm building (not in this repo). The AI scientists took it so seriously, each convinced it was the Lead Research Scientist of the only frontier lab I was funding, that I let it run, each one driven by a [loop harness](https://github.com/rxdt/py_ralph_frame). Then, when each proudly presented their results, out of curiosity I convened a *second* set of three AIs to judge the three, live. The panel ran their code, pummelled the scientists with questions, debated for hours, cited file paths at each other like case law, and delivered a unanimous verdict:
 
 ### We need a human for this.
